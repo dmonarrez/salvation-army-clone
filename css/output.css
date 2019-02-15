@@ -5,14 +5,13 @@ body {
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 70px;
   padding: 15px 10px;
 }
 
 .nav-left {
   display: flex;
-  margin-left: 54.2px;
 }
 .nav-left img {
   height: 70px;
@@ -30,14 +29,16 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-right: 54.2px;
 }
 .nav-right p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
   margin: 0;
   margin-left: 10px;
   margin-right: 20px;
 }
 .nav-right button {
+  font-family: "Montserrat", sans-serif;
   height: 30px;
   width: 117px;
   border: 0;
@@ -67,6 +68,7 @@ nav {
   height: 36px;
   width: 200px;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*# sourceMappingURL=output.css.map */

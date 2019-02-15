@@ -1,3 +1,5 @@
+$contentFont: 'Montserrat', sans-serif;
+
 body {
   margin: 0;
 }
@@ -6,14 +8,14 @@ body {
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 70px;
   padding: 15px 10px;
 }
 
 .nav-left {
   display: flex;
-  margin-left: 54.2px;
+  // margin-left: 54.2px;
 
   img {
     height: 70px;
@@ -34,15 +36,18 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-right: 54.2px;
+  // margin-right: 54.2px;
   // padding-top: 30px;
   p {
+    font-family: $contentFont;
+    font-weight: bold;
     margin: 0;
     margin-left: 10px;
     margin-right: 20px;
   }
 
   button {
+    font-family: $contentFont;
     height: 30px;
     width: 117px;
     border: 0;
@@ -67,6 +72,7 @@ nav {
   a {
     text-decoration: none;
     color: white;
+
   }
 
   p {
@@ -75,6 +81,7 @@ nav {
     height: 36px;
     width: 200px;
     text-align: center;
+    font-family: $contentFont;
   }
 }
 //end nav styles
