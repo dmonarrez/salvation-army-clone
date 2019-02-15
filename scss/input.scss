@@ -1,4 +1,5 @@
 $contentFont: 'Montserrat', sans-serif;
+$headingFont: 'Cinzel', serif;
 
 body {
   margin: 0;
@@ -7,6 +8,7 @@ body {
 //nav styles
 nav {
   display: flex;
+  position: fixed;
   flex-direction: row;
   justify-content: space-around;
   height: 70px;
@@ -15,7 +17,6 @@ nav {
 
 .nav-left {
   display: flex;
-  // margin-left: 54.2px;
 
   img {
     height: 70px;
@@ -36,8 +37,7 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  // margin-right: 54.2px;
-  // padding-top: 30px;
+  margin-left: 50px;
   p {
     font-family: $contentFont;
     font-weight: bold;
@@ -85,3 +85,83 @@ nav {
   }
 }
 //end nav styles
+
+//hero styles
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 82vh;
+  background-image: url("../img/background.jpg");
+  background-size: 100vw 82vh;
+}
+
+.floater {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 82vh;
+  background-color: rgba(52, 70, 95, .5);
+  color: white;
+
+  h3 {
+    font-size: 25pt;
+    font-family: $headingFont;
+    font-weight: lighter;
+    margin: 0;
+  }
+
+  p {
+    font-size: 12pt;
+  }
+
+  button {
+    font-family: $contentFont;
+    height: 60px;
+    width: 160px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+  }
+}
+//end hero styles
+
+//section-container styles
+.section-container {
+  width: 100vw;
+  height: 130px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    font-family: $headingFont;
+    font-weight: lighter;
+  }
+
+  p {
+    font-family: $contentFont;
+  }
+}
+//end section-container styles
+
+//tiles styles
+.tiles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+
+  img {
+    height: 200px;
+    width: 25vw;
+  }
+}

@@ -4,6 +4,7 @@ body {
 
 nav {
   display: flex;
+  position: fixed;
   flex-direction: row;
   justify-content: space-around;
   height: 70px;
@@ -29,6 +30,7 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-left: 50px;
 }
 .nav-right p {
   font-family: "Montserrat", sans-serif;
@@ -69,6 +71,75 @@ nav {
   width: 200px;
   text-align: center;
   font-family: "Montserrat", sans-serif;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 82vh;
+  background-image: url("../img/background.jpg");
+  background-size: 100vw 82vh;
+}
+
+.floater {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 82vh;
+  background-color: rgba(52, 70, 95, 0.5);
+  color: white;
+}
+.floater h3 {
+  font-size: 25pt;
+  font-family: "Cinzel", serif;
+  font-weight: lighter;
+  margin: 0;
+}
+.floater p {
+  font-size: 12pt;
+}
+.floater button {
+  font-family: "Montserrat", sans-serif;
+  height: 60px;
+  width: 160px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: red;
+}
+
+.section-container {
+  width: 100vw;
+  height: 130px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-container h2 {
+  font-family: "Cinzel", serif;
+  font-weight: lighter;
+}
+.section-container p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.tiles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.tiles img {
+  height: 200px;
+  width: 25vw;
 }
 
 /*# sourceMappingURL=output.css.map */
