@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 90px;
+  width: 100vw;
+}
+
+.nav-left {
+  display: flex;
+}
+.nav-left img {
+  height: 70px;
+}
+.nav-left p {
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.options {
+  display: flex;
+  background-color: #34465f;
+  height: 36px;
+  width: 100vw;
+}
+
+/*# sourceMappingURL=output.css.map */
