@@ -204,6 +204,7 @@ nav {
   }
 
   .more-info .more-info-info {
+    padding: 0;
     flex-direction: column;
   }
 }
@@ -229,6 +230,7 @@ nav {
   }
 
   .more-info .more-info-info {
+    padding: 0;
     flex-direction: column;
   }
 }
